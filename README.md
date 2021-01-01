@@ -1,6 +1,7 @@
 # Machine-Learning-Stanford-University
 Notes and assignments for Coursera certified course
 
+## Contents
 - Week 1:
   - 01 **Linear Regression with One Variable**
   - 02 **Linear Algebra Review**
@@ -31,8 +32,6 @@ Notes and assignments for Coursera certified course
 
 
 ## Certificate
-
-## Contents
 
 ## Resources
 - MatLab CheetSheet by Steven Thornton
