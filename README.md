@@ -1,6 +1,9 @@
 # Machine-Learning-Stanford-University
 Notes and assignments for Coursera certified course
 
+## Certificate
+[add link]
+
 ## Contents
 - Week 1:
   - 01 **Linear Regression with One Variable**
@@ -31,7 +34,11 @@ Notes and assignments for Coursera certified course
   - 16 **Application Example: Photo OCR**
 
 
-## Certificate
+## Files
+
+Annotated Notes
+Quiz Solutions
+Coding Assignments
 
 ## Resources
 - MatLab CheetSheet by Steven Thornton
