@@ -1,5 +1,5 @@
 # Machine-Learning-Stanford-University
-Notes and assignments for Coursera certified course
+Notes and assignments for Coursera certified course in Machine Learning
 
 ## Certificate
 [add link]
