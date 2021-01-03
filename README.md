@@ -37,8 +37,8 @@ Notes and assignments for Coursera certified course
 ## Files
 
 - Annotated Notes
-- Quiz Solutions
-- Coding Assignments
+- Quiz Solutions with Explainations
+- Coding Assignments in MatLab
 
 ## Resources
 - MatLab CheetSheet by Steven Thornton
