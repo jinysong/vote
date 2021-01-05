@@ -5,9 +5,10 @@ Notes and assignments for Coursera certified course in Machine Learning
 [add link]
 
 ## Contents
+|--------|---|
 |Week 1  |01 **Linear Regression with One Variable** |
 |        |02 **Linear Algebra Review**|
-|--------|---|
+
 |Week 2  |03 **Linear Regression with Multiple Variables**|
 |        |04 **Octave/Matlab Tutorial**|
 |--------|---|
