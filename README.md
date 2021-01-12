@@ -24,7 +24,7 @@ Notes and assignments for Coursera certified course in Machine Learning
 ## Files
 
 - Annotated Notes
-- Quiz Solutions with Explainations
+- Quizzes 
 - Coding Assignments in MatLab
 
 ## Resources
