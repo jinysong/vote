@@ -27,6 +27,10 @@ Notes and assignments for Coursera certified course in Machine Learning. Course 
 - Quizzes 
 - Coding Assignments in MatLab
 
+## Tips
+
+- Each time you attempt the quizzes at the end of each section, the questions will be slightly different. So do each quizzes twice to get more practice questions.
+
 ## Resources
 - MatLab CheetSheet by Steven Thornton
 [https://github.com/steventhornton/Matlab-Cheatsheet/blob/master/MatlabCheatsheet.pdf]
