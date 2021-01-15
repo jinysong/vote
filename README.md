@@ -30,6 +30,7 @@ Notes and assignments for Coursera certified course in Machine Learning. Course 
 ## Tips
 
 - Each time you attempt the quizzes at the end of each section, the questions will be slightly different. So do each quizzes twice to get more practice questions.
+- Neural Network: Backpropagation (Week 5) is the hardest part of the course. NNs also the most useful algorithm for machine learning, especially for projects. I recommend doing these two chapters first (week 4 and 5) and make good notes so you can review them quickly throughout the course for better understanding and retention. Other than the activation part that uses the sigmoid/logistic function which builds on past material, Neural Networks can be studied as a standalone portion.
 
 ## Resources
 - MatLab CheetSheet by Steven Thornton
