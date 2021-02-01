@@ -15,7 +15,7 @@ Notes and assignments for Coursera certified course in Machine Learning. Course 
 |Week 8  |12 **Unsupervised Learning** <br/>13 **PCA or Principal Component Analysis**|
 |Week 9  |14 **Anomaly Detection** <br/>15 **Recommender Systems**|
 |Week 10 |16 **Large Scale Machine Learning**|
-|Week 11 |17 **Application Example: Photo OCR**|
+|Week 11 |17 **Application: Photo OCR**|
 
 
 ## Files
