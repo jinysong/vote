@@ -1,4 +1,4 @@
-# Machine Learning
+# Coursera: Machine Learning
 Notes and assignments for Coursera certified course in Machine Learning. Course taught by Andrew Ng, at Stanford University. Assignments are completed in MATLAB. 
 
 ## Contents
