@@ -25,3 +25,40 @@ Second, sentiment analysis could be used to recommend specific products based on
 ## Machine Learning Application
 
 I created a Neural Network (NN) model that will predict the star rating on a scale of 1 to 5, based on a written review. The training data is scrape from Amazon's product review section, using a selection of different types of face mask products.
+
+## Packages and Libraries required
+### Webscraping:
+- selenium
+
+### Data Analysis:
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- wordcloud
+
+### Language Package:
+- NLTK
+
+### Modeling:
+- scikit learn
+- keras
+- tensorflow
+
+## Notebooks
+
+1. Data Collection
+2. Data Cleaning & EDA
+3. Neural Network Modeling & Evaluation
+
+## Summary
+
+## Deployment
+
+I've decided to create a working application using Streamlit. Streamlit is an open-source Python library that makes it easy to create and share custom web apps for machine learning and data science. The final product is deployed on Heroku, a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud. It is easy to use and quick to setup. You can see a working demo here: [link]
+
+## Future Development
+
+Sentiment analysis can help evaluate customer satisfaction and gain important insights from huge datasets. Manually analyzing brand sentiment is time-consuming, and machine learning can unburden companies of this repetitive task.
+
+Further development could focus on increasing the model's accuracy, better identity edge cases, and provide recommender capabilities.
