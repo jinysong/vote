@@ -49,8 +49,8 @@ I created a Neural Network (NN) model that will predict the star rating on a sca
 ## Notebooks
 
 1. Data Collection
-  - Data Collection Goal
-3. Data Cleaning & EDA
+2. Data Cleaning
+3. Exploratory Data Analysis
 4. Neural Network Modeling & Evaluation
 
 ## Summary
