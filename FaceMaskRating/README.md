@@ -161,8 +161,61 @@ Of all the reviews I have scraped from Amazon, the number of reviews is consiste
 ![time1](img/time1.png)
 ![time2](img/time2.png)
 
+### Modeling with Neural Network
 
+There are many effective ways to make classification predictions, and a neural network was chosen for this task. 
 
+Artificial Neural Networks and Deep Neural Networks are effective for high dimensionality problems, but they are also theoretically complex. Fortunately, there are deep learning frameworks, like TensorFlow, to simplify and streamline the process.
+
+### One-Hot-Encoding
+
+Many machine learning algorithms cannot work with categorical data directly. The categories must be converted into numbers. One hot encoding (or dummy encoding) allows the representation of categorical data by a process of “binarization” of the category and includes it as a feature to train the model. In this case, each sample's rating (between 1 and 5) is encoded as either '1' for that star rating, or '0' for every other rating.
+
+### Train Test Split
+
+Scikit-learn's train test split module is used to split the sample into random train and test subsets. Twenty percent of the data were used for testing.
+
+### Cleaning Review with Tokenizer
+
+The title and reviews are cleaned with NTLK's tokenizer. For each title or review, a lambda function is applied in which the text is split, tokenized with regex, changed to lower case, and finally joined together as a string.
+
+### Differentiating Title From Review
+
+The review title may have more or less weight compared to the reviews. Since they are separate entities, it is best to keep them separate for modeling.
+
+We will use tokenize from the nltk package to turn the title into tokens, attach the "t_" prefix for each token, and finally join the tokens together back to a string.
+
+### Create an Indexed Dictionary
+
+Create an index for each unique word in a set combing both review and their titles for tracking in the neural network. Add 4 items to the beginning of the dictionary that represented padding, the start of the review, unknown words, and unused words.
+
+###  Convert Each Word into its Corresponding Index
+
+Convert each word to the corresponding index in the dictionary made earlier. If the word is not in the dictionary, use <UNK> instead.
+
+### Combine Indexed Title and Reviews
+
+Finally, we will combine the titles and reviews together so we can feed them into our NN model.
+
+### Padding
+
+Before creating a neural network model, we will use keras' preprocessing module to pad the sequence. The value of the padding will be '<PAD>'. The padding will be applied after the sequence, if needed. The review's length will be capped to a maximum of 250 words.
+  
+### Modeling
+
+The neural network model consists of 1 embedding layer (with the number of embedding equal to the number of unique words), 1 dense layer with 16 nodes, and one output layer with 5 nodes for each rating outcome.
+  
+### Evaluation
+
+The model achieved an accuracy of 0.568 on the validation set and 0.592 on the testing set.
+
+### Confusion Matrix
+
+A confusion matrix is created to visualize the results. Before doing so, one-hot-encoding has to be undone and convert the rating into a single number.
+
+![confusion](img/confusion.png)
+
+We observe that most mistakes were made one step apart to the correct score.
 
 ## Deployment
 
